@@ -1,0 +1,160 @@
+body {
+    font-family: 'Montserrat', sans-serif;  
+    
+}
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+.caixa {
+    position:relative;
+    width: 940px;
+    margin: auto;
+}
+nav {
+    position:absolute;
+    top:  110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+    
+}
+.produtos {
+    width:  940px;
+    margin: auto;
+    padding: 50px 0;
+}
+.produtos li:hover{
+    border-color: #C78C19;
+}
+.produtos li:active {
+    border-color: #088C19;
+}
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align:  top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto-descricao {
+    font-size: 18px;
+}
+.produto-preco {
+    font-size: 22px;
+    font-weight:  bold;
+    margin:10px 0 0 ;
+}
+footer {
+    text-align: center;
+    background: url("bg.jpg");    
+    padding: 40px 0;
+    
+}
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin:  20px 0 0;
+}
+main {
+    width:  940px;
+    margin: 0 auto;        /* centralizando o main */
+}
+form {
+    margin: 40px 0;        /* aumentando a margin do form */
+}
+form label, form legend {
+    display: block;        /* qubrando linha no label */
+    font-size: 20px;       /* alterando a fonte */
+    margin: 0 0 10px;      /* e aumentando a margin */
+}
+.input-padrao { /*usando a mesma configuração em dois forms */
+    display: block;       /* quebrando linha do input */
+    margin: 0 0 20px;   /* aumentando a margin */
+    padding: 10px 25px; /* aumentando padding interno   */
+    width: 50%;        /* aumentando a largura */
+}
+.checkbox {
+margin: 20px 0;
+}
+.enviar {
+    width: 40%; /* largura do botao */
+    padding: 15px 0; /*espaçamento interno */
+    background: orange; /* cor da caixa */
+    color: white; /*cor do texto da caixa */
+    font-weight: bold;  /*texto em negrito */
+    font-size: 18px;   /* tamanho da fonte */
+    border: none;  /* sem borda */
+    border-radius: 5px;  /* borda arredondada */
+    transition: 1s all;  /* todos elementos irao transmitir */
+    cursor: pointer;  /* vai aparecer a maozinha quando o mouse estiver em cima */
+}
+
+
+.enviar:hover{    /* quando o mouse esta por cima */
+    background: darkgoldenrod;
+    transform: scale(1.2);
+
+}
+table {
+    margin: 20px 0 40px;
+}
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+.banner {
+    width: 100%;
+}
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;  /*2em > proporcional ao tamanho da fonto */
+    margin: 0 0 1em;
+    clear: left; /*o clear vai quebrar o float do utensilios */
+}
+.principal p {
+margin:  0 0 1em;
+}
+.principal strong {
+    font-weight: bold;
+}
+.principal em {
+    font-style: italic;
+}
+.utensilios {
+    width:  120px;
+    float: left; /* float deixa o conteudo por baixo */
+    margin: 0 20px 0 20px;
+}
+.imagembeneficios {
+    width:  60%;
+}
